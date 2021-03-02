@@ -1,0 +1,11 @@
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+ border-right: none;
+}
+
+#content {
+  flex: 1;
+  padding: 10px;
+  border-left: 1px solid #f0f0f0;
+  padding: 50px;
+  height: 100%;
+}
