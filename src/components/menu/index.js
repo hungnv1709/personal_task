@@ -15,7 +15,7 @@ const { SubMenu } = Menu;
 const Sider = () => {
   return (
     <Router>
-      <div style={{ display: "flex", height: "100%" }}>
+      <div style={{ display: "flex" }} className='app-container'>
         <div
           style={{
             padding: "10px",
@@ -34,6 +34,9 @@ const Sider = () => {
             <Route path="/:id" children={<Child />} />
           </Switch>
         </div>
+      </div>
+      <div style={{ height: 100, width: '100%', borderStyle: 'solid' }}>
+
       </div>
     </Router>
   );

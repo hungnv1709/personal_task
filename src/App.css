@@ -1,3 +1,13 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+#content {
+  /* min-height: 100%;  */
+}
+.app-container {
+  min-height: calc(100% - 78 -100); /* 78 is header heigh, 100 is footer heigh*/
+}
 .App {
   text-align: center;
 }
@@ -32,3 +42,4 @@
   height: 100%;
   display: inline-box;
 }
+
